@@ -17,7 +17,7 @@ interface TerminalLine {
 const TerminalDialog = ({ open, onOpenChange }: TerminalDialogProps) => {
   const [input, setInput] = useState('');
   const [history, setHistory] = useState<TerminalLine[]>([
-    { type: 'output', content: 'Welcome to alisaa\'s terminal. Type "help" for commands.' },
+    { type: 'output', content: 'Welcome to arjunnn\'s terminal. Type "help" for commands.' },
   ]);
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
